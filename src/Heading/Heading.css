@@ -1,0 +1,40 @@
+.heading {
+    background-color: black;
+    color: white;
+    height:68px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 78px;
+}
+
+.heading__name {
+    font-weight: 700;
+    margin-left: 12px;
+} 
+
+.heading__button {
+    margin-left: 12px;
+    background-color: rgb(62, 62, 250);
+    outline: none;
+    color: white;
+    padding: 8px 12px;
+    font-weight: 600;
+    border-radius: 16px;
+    cursor: pointer;
+} 
+
+.heading__user-icon {
+    padding: 6px 9px;
+    background-color: #acacac;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.heading__user-icon:hover {
+    background-color: #d1d1d1 ;
+}
+
+.heading__button:hover {
+    background-color: rgb(121, 121, 255);
+}

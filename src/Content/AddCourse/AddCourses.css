@@ -1,0 +1,81 @@
+.add-courses {
+    background-color: #bdb7b7;
+    padding: 0 30%;
+    height: 100%;
+
+}
+
+.Name-option {
+    text-align: center;
+    padding: 28px 0;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.add-courses__add-name {
+
+}
+
+.add-name__heading {
+    font-size: 19px;
+    padding: 24px 0;
+    font-weight: 500;
+}
+
+.add-name__input {
+    width: 100%;
+    height: 24px;
+    outline: none;
+}
+
+.add-courses__add-img {
+
+}
+
+.item-upload-img {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.preview__upload-img {
+    height: 105px;
+    margin-left: 36px;
+}
+
+.add-courses__submit {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.decrip-courses {
+    outline: none;
+}
+
+.add-name__input--check {
+    margin-top: 12px;
+    display: none;
+}
+
+.add-name__input--warning {
+    color: #b60101;
+}
+
+.add-name__input--success {
+    color : #0daa71;
+    display: none;
+}
+
+.add-more-img__heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.add-name__input-check.add-name__input-check--active .add-name__input--success {
+    display: block;
+}
+
+.add-name__input-check.add-name__input-check--active .add-name__input--warning {
+    display: none;
+}
